@@ -1,0 +1,60 @@
+{
+   "abstract" : "RabbitMQ Event implimentation for Replay",
+   "author" : [
+      "David Ihnen <davidihnen@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Replay-EventSystem-RabbitMQ",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "File::Slurp" : "999.19",
+            "Replay" : "0.03",
+            "Test::More" : "1.001003",
+            "Test::Most" : "0.33"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "1.3301",
+            "Data::UUID" : "1.219",
+            "JSON" : "2.53",
+            "JSON::Any" : "1.29",
+            "Moose" : "2.1209",
+            "Moose::Util::TypeConstraints" : "2.1209",
+            "MooseX::MetaDescription::Meta::Trait" : "0.06",
+            "MooseX::Storage" : "0.46",
+            "Net::RabbitMQ" : "v0.2.7",
+            "POSIX" : "1.09",
+            "Readonly" : "1.04",
+            "Replay" : "0.03",
+            "Scalar::Util" : "1.21",
+            "Storable" : "2.45",
+            "Time::HiRes" : "1.9717",
+            "Try::Tiny" : "0.11",
+            "perl" : "5.008008"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.03"
+}
